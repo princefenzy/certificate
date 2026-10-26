@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f6fc;
+    color: #16345f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button,
+input {
+    font: inherit;
+}
+header {
+    background: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 10px #00000010;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #174d94;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #334b70;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #1764d8;
+}
+
+
+.body {
+    background: linear-gradient(110deg, #1754a7, #3789ed);
+    color: white;
+    padding: 60px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.body-content {
+    max-width: 550px;
+}
+
+.body h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.body p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.body-btn {
+    display: inline-block;
+    background: white;
+    color: #1764d8;
+    padding: 14px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.body-btn:hover {
+    background: #eaf2ff;
+}
+
+.body-icon {
+    font-size: 100px;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 22px;
+    align-items: start;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px #16345f12;
+    min-width: 0;
+}
+
+.card > h2 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.description {
+    color: #687b96;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d5dfed;
+    border-radius: 7px;
+    outline: none;
+    font-size: 15px;
+    background: white;
+    color: #16345f;
+}
+
+input:focus {
+    border-color: #1764d8;
+    box-shadow: 0 0 0 3px #1764d81a;
+}
+
+input::placeholder {
+    color: #91a0b7;
+}
+.btn {
+    width: 100%;
+    padding: 14px;
+    background: #1764d8;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #104eae;
+}
+
+.btn:disabled {
+    background: #9aacc6;
+    cursor: not-allowed;
+}
+
+.print-btn {
+    margin-top: 18px;
+}
+#message {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.certificate {
+    background: #fffefa;
+    border: 8px double #174d94;
+    outline: 2px solid #c99b36;
+    outline-offset: -15px;
+    padding: 35px 25px;
+    text-align: center;
+    color: #123e7d;
+    font-family: Georgia, "Times New Roman", serif;
+    min-height: 430px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-wrap: anywhere;
+}
+
+.cap {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+.school-name {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.motto {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.certificate h2 {
+    font-size: 26px;
+    margin: 28px 0 18px;
+}
+
+.certificate p {
+    line-height: 1.7;
+}
+
+.student-name {
+    font-size: 34px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.cert-details {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.certificate-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    gap: 12px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signature {
+    border-top: 1px solid #174d94;
+    padding-top: 8px;
+    min-width: 100px;
+}
+
+.seal {
+    font-size: 40px;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #71819a;
+    font-size: 13px;
+}
+
